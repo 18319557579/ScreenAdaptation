@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="522px"
+            android:layout_height="wrap_content"
+            android:text="查看各种信息" />
+
+        <Button
+            android:id="@+id/btn_skip_first"
+            android:layout_width="72pt"
+            android:layout_height="wrap_content"
+            android:text="跳去FirstActivity"/>
+
+
+        <Button
+            android:id="@+id/btn_set_adapt"
+            android:layout_width="25.4mm"
+            android:layout_height="wrap_content"
+            android:text="设置适配"/>
+
+        <Button
+            android:id="@+id/btn_set_adapt_sp"
+            android:layout_width="130.5dp"
+            android:layout_height="wrap_content"
+            android:text="单独改变sp"/>
+        
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="1in"
+            android:layout_height="wrap_content"
+            android:text="弹Toast"/>
+
+            
+
+    </LinearLayout>
+</layout>
